@@ -6,6 +6,8 @@ struct linkedlist
 {
     struct linkedlist_node *first;
     // TODO: define linked list metadata
+
+    (*first)->next = NULL;
 };
 
 struct linkedlist_node
